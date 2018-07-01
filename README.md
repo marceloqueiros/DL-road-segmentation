@@ -2,14 +2,14 @@
 by [António Silva]() and [Marcelo Queirós](https://www.linkedin.com/in/marceloqueiros/)
 
 ## Introduction
-Automatic segmentation of roads is sometimes important for identifying roads from satellite images. In some countries, total mapping of roads does not exist and therefore this software proves to be of great importance.
-Deep learning is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. At the moment, Deep Learning is the state of the art of computer vision to solve complex problems without well-defined algorithmic rules. This problem fits this description, since the identification of a road does not present trivial and well-defined rules.
+Automatic segmentation of roads can be useful for identifying roads from satellite images. In some countries, total mapping of roads does not exist and therefore this software proves to be of great importance.
+Deep learning is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. At the moment, Deep Learning is the state of the art computer vision method to solve complex problems without well-defined algorithmic rules. This problem fits this description, since the identification of a road does not present trivial and well-defined rules.
 
-[A deep learning approach to Road Segmentation](https://github.com/marceloqueiros/DL-road-segmentation) was implemented in a supervised way, meaning that labelled images were used (original image + road mask). The images to training were taken from https://www.cs.toronto.edu/~vmnih/data/.
+[A deep learning approach to Road Segmentation](https://github.com/marceloqueiros/DL-road-segmentation) was implemented in a supervised way, meaning that labelled images were used (original image + road mask). The images used for training were taken from https://www.cs.toronto.edu/~vmnih/data/.
 
 
 ## Network
-The network that was used was a network already known as succeeded in segmentation works called "unet", which presents the following architecture:
+The network used was already known to succeeded in segmentation frameworks such as "unet", which presents the following architecture:
 
 | <img src="Images_Readme/unet.jpg" alt="unet" width="400"> |
 |:--:| 
@@ -17,7 +17,7 @@ The network that was used was a network already known as succeeded in segmentati
 
 
 ## Results
-In addition to presenting the code for pre-processing and training the network, there is also a file that test images, for default in "Images/" folder. You should call this file in the cmd of the form "python test_images.py". Some optional parameters can be added like "image directory", "path to template", "width", "height" and "delay". If no parameters are given the file will use the default parameters.
+In addition to presenting the code for pre-processing and training the network, there is also a file that tests images, as default, in "Images/" folder. You should call this file through cmd in the form of "python test_images.py". Some optional parameters can be added like "image directory", "path to template", "width", "height" and "delay". If no parameters are given, the file will use the default parameters.
 After that, the result will be like the following (real results):
 
 | <img src="Images_Readme/1.png" alt="prediction" width="400"> |
