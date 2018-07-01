@@ -9,17 +9,27 @@ by [António Silva]() and [Marcelo Queirós](https://www.linkedin.com/in/marcelo
 
 
 
-
-
-
-| ![Alt text](Images/readme_images/menu.png "Menu") |
+| <img src="Images_Readme/unet.jpg" alt="unet" width="500"> |
 |:--:| 
-| **Fig.1:** Game menu (in portuguese language).  |
+| **Fig.1:** Unet - network used in this project. |
 
-| ![Alt text](Images/readme_images/difficulty.png "Difficulty") |
+| <img src="Images_Readme/1.png" alt="prediction" width="500"> |
 |:--:| 
-| **Fig.2:** Choose difficulty of the game after choosing option. |
+| **Fig.2:** Original | GrouthTruth | Prediction | Original + Prediction. |
 
-| ![Alt text](Images/readme_images/playing.png "Playing") |
+| <img src="Images_Readme/2.png" alt="prediction" width="500"> |
 |:--:| 
-| **Fig.3:** Playing the game (the current player must select the column and line numbers).  |
+| **Fig.3:** Original | GrouthTruth | Prediction | Original + Prediction. |
+
+| <img src="Images_Readme/3.png" alt="prediction" width="500"> |
+|:--:| 
+| **Fig.4:** Original | GrouthTruth | Prediction | Original + Prediction. |
+
+| <img src="Images_Readme/4.png" alt="prediction" width="500"> |
+|:--:| 
+| **Fig.5:** Original | GrouthTruth | Prediction | Original + Prediction. |
+
+| <img src="Images_Readme/5.png" alt="prediction" width="500"> |
+|:--:| 
+| **Fig.6:** Original | GrouthTruth | Prediction | Original + Prediction. |
+
